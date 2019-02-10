@@ -15,6 +15,10 @@
     "type": "git",
     "url": "git+ssh://git@github.com/goqoo-on-kintone/kintone-spinner.git"
   },
+  "keywords": [
+    "kintone",
+    "spinner"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
