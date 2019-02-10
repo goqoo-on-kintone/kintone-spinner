@@ -1,6 +1,7 @@
 module.exports = {
   output: {
     library: 'Spinner',
+    libraryExport: 'default',
     libraryTarget: 'umd',
   },
   module: {
