@@ -2,9 +2,14 @@
   "name": "spirit-and-time",
   "version": "0.1.0",
   "description": "A spinning activity indicator(spinner) for kintone",
-  "main": "index.js",
+  "main": "dist/main.js",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode=development",
+    "watch": "npm run build -- --watch",
+    "release": "webpack --mode=production"
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/goqoo-on-kintone/spirit-and-time/issues"
   },
-  "homepage": "https://github.com/goqoo-on-kintone/spirit-and-time#readme"
+  "homepage": "https://github.com/goqoo-on-kintone/spirit-and-time#readme",
+  "dependencies": {
+    "kintone-ui-component": "^0.1.4"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "prettier": "^1.16.4",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
 }
