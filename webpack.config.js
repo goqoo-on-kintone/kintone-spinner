@@ -1,4 +1,8 @@
 module.exports = {
+  output: {
+    library: 'Spinner',
+    libraryTarget: 'umd',
+  },
   module: {
     rules: [
       {
