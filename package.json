@@ -1,6 +1,6 @@
 {
   "name": "kintone-spinner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A spinning activity indicator for kintone",
   "main": "dist/main.js",
   "files": [
