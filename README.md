@@ -38,5 +38,5 @@ kintone.events.on('app.record.index.show', event => {
 
 
 ## Note
-This library uses Spinner of kintone-ui-component without  React.  
+This library uses Spinner of kintone UI Component without  React.  
 https://kintone.github.io/kintone-ui-component/Reference/Spinner/
