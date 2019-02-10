@@ -14,7 +14,7 @@ $ yarn add kintone-spinner
 ```js
 import Spinner from 'kintone-spinner'
 
-kintone.events.on(['app.record.index.show'], event => {
+kintone.events.on('app.record.index.show', event => {
   const spinner = new Spinner()
   document.body.appendChild(spinner.render())
 
