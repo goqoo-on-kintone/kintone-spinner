@@ -1,0 +1,19 @@
+{
+  "name": "spirit-and-time",
+  "version": "0.1.0",
+  "description": "A spinning activity indicator(spinner) for kintone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/goqoo-on-kintone/spirit-and-time.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goqoo-on-kintone/spirit-and-time/issues"
+  },
+  "homepage": "https://github.com/goqoo-on-kintone/spirit-and-time#readme"
+}
