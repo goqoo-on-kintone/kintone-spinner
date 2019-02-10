@@ -35,3 +35,8 @@ kintone.events.on('app.record.index.show', event => {
 })
 ```
 ![result](https://github.com/goqoo-on-kintone/kintone-spinner/blob/media/kintone-spinner.gif)
+
+
+## Note
+This library uses Spinner of kintone-ui-component without  React.  
+https://kintone.github.io/kintone-ui-component/Reference/Spinner/
