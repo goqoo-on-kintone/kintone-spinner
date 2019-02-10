@@ -34,3 +34,4 @@ kintone.events.on(['app.record.index.show'], event => {
   kintone.app.getHeaderMenuSpaceElement().appendChild(button)
 })
 ```
+![result](https://github.com/goqoo-on-kintone/kintone-spinner/blob/media/kintone-spinner.gif)
