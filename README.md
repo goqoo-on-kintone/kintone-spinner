@@ -3,17 +3,30 @@ A spinning activity indicator for kintone
 
 ##  Install
 
+### Direct attachment
+
+Attach following file into kintone app setting
+
+```
+./dist/kintone-spinner.min.js
+```
+
+
+### NPM
+
 ```
 $ npm install --save kintone-spinner
  or
 $ yarn add kintone-spinner
 ```
 
+```js
+import Spinner from 'kintone-spinner'
+```
+
 ## Usage
 
 ```js
-import Spinner from 'kintone-spinner'
-
 kintone.events.on('app.record.index.show', event => {
   const spinner = new Spinner()
   document.body.appendChild(spinner.render())
