@@ -3,6 +3,7 @@
   "version": "0.2.0",
   "description": "A spinning activity indicator for kintone",
   "main": "dist/kintone-spinner.min.js",
+  "types": "index.d.ts",
   "files": [
     "dist/"
   ],
