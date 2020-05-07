@@ -1,7 +1,8 @@
 # kintone Spinner
+
 A spinning activity indicator for kintone
 
-##  Install
+## Install
 
 ### Direct attachment
 
@@ -16,11 +17,13 @@ dist/kintone-spinner.min.js
 Attach following URL into kintone app setting (Hosted by [jsDelivr](https://www.jsdelivr.com/package/npm/kintone-spinner))
 
 #### latest version
+
 ```
 https://cdn.jsdelivr.net/npm/kintone-spinner
 ```
 
 #### specific version
+
 ```
 https://cdn.jsdelivr.net/npm/kintone-spinner@x.x.x
 ```
@@ -60,9 +63,10 @@ kintone.events.on('app.record.index.show', event => {
   kintone.app.getHeaderMenuSpaceElement().appendChild(button)
 })
 ```
+
 ![result](https://github.com/goqoo-on-kintone/kintone-spinner/blob/media/kintone-spinner.gif)
 
-
 ## Note
+
 This library uses Spinner of kintone UI Component without  React.  
-https://kintone.github.io/kintone-ui-component/Reference/Spinner/
+<https://kintone.github.io/kintone-ui-component/Reference/Spinner/>
