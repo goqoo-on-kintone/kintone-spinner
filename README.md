@@ -8,9 +8,22 @@ A spinning activity indicator for kintone
 Attach following file into kintone app setting
 
 ```
-./dist/kintone-spinner.min.js
+dist/kintone-spinner.min.js
 ```
 
+### CDN
+
+Attach following URL into kintone app setting (Hosted by [jsDelivr](https://www.jsdelivr.com/package/npm/kintone-spinner))
+
+#### latest version
+```
+https://cdn.jsdelivr.net/npm/kintone-spinner
+```
+
+#### specific version
+```
+https://cdn.jsdelivr.net/npm/kintone-spinner@x.x.x
+```
 
 ### NPM
 
@@ -51,5 +64,5 @@ kintone.events.on('app.record.index.show', event => {
 
 
 ## Note
-This library uses Spinner of kintone UI Component without  React.  
+This library uses Spinner of kintone UI Component without  React.
 https://kintone.github.io/kintone-ui-component/Reference/Spinner/
